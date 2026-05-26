@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
-import { ArrowDown, Github, Twitter, Linkedin, MapPin, Zap, Terminal, Instagram } from 'lucide-react'
+import { ArrowDown, Github, MapPin, Zap, Terminal, Instagram } from 'lucide-react'
 import type { GitHubUser } from '../../types'
 import { CONFIG } from '../../lib/config'
 import { formatNumber } from '../../lib/utils'
