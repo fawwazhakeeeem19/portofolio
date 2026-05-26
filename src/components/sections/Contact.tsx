@@ -181,21 +181,6 @@ export function Contact() {
         </div>
       </div>
 
-      {/* Footer */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={inView ? { opacity: 1 } : {}}
-        transition={{ delay: 1 }}
-        className="text-center mt-24 pb-8"
-      >
-        <div className="w-px h-12 bg-gradient-to-b from-white/10 to-transparent mx-auto mb-6" />
-        <p className="font-mono text-xs text-white/20">
-          Crafted with <span className="text-[#ff2d78]">♥</span> by {CONFIG.name} · {new Date().getFullYear()}
-        </p>
-        <p className="font-mono text-[10px] text-white/10 mt-1">
-          Built with React + TypeScript + Framer Motion
-        </p>
-      </motion.div>
     </section>
   )
 }
